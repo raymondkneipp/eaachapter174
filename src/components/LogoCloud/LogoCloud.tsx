@@ -7,7 +7,7 @@ const Brands: React.VFC = () => {
 			<Tile>
 				<LogoCloudItem src="EAA_Chapters.png" name="EAA Chapters" />
 				<LogoCloudItem
-					src="EAA_black.png"
+					src="EAA_logo.png"
 					name="Experimental Aircraft Association"
 				/>
 				<LogoCloudItem src="YE25th.png" name="Young Eagles 25th Anniversary" />
