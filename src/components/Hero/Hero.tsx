@@ -12,6 +12,7 @@ const Hero: React.FC = ({ children }) => {
 							<Image
 								src="/img/plane.svg"
 								layout="intrinsic"
+								objectFit="contain"
 								width={600}
 								height={300}
 								alt="plane"

@@ -8,8 +8,8 @@ interface Props {
 
 const LogoCloudItem: React.VFC<Props> = ({ src, name }) => {
 	return (
-		<div className="opacity-60 flex items-center flex-col text-center sm:flex-row sm:text-left sm:space-x-6 md:flex-col md:space-x-0 md:text-center xl:flex-row xl:space-x-6 xl:text-left">
-			<div>
+		<div className="flex items-center flex-col text-center sm:flex-row sm:text-left sm:space-x-6 md:flex-col md:space-x-0 md:text-center xl:flex-row xl:space-x-6 xl:text-left">
+			<div className="opacity-30">
 				<Image
 					src={`/img/badges/${src}`}
 					layout="fixed"
