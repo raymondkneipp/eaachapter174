@@ -20,7 +20,9 @@ const LogoCloudItem: React.VFC<Props> = ({ src, name }) => {
 					priority={true}
 				/>
 			</div>
-			<Typography variant="h6">{name}</Typography>
+			<Typography element="h4" variant="h6">
+				{name}
+			</Typography>
 		</div>
 	);
 };
