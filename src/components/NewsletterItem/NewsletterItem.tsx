@@ -42,6 +42,7 @@ const NewsletterItem: React.VFC<Props> = ({ year, month }) => {
 							height={400}
 							layout="responsive"
 							objectFit="cover"
+							alt={`${monthNames[month]} ${year}`}
 						/>
 					</div>
 					<Typography variant="p" center>

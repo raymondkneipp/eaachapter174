@@ -18,8 +18,8 @@ const Map: React.VFC = () => {
 						<Typography variant="h2">Location</Typography>
 						<Typography>
 							Our headquarters are located at Clermont County Airport (I69) in
-							Batavia, Ohio, home of world-famous Sporty's Pilot Shop, the
-							world's largest pilot shop. We meet in the Hawk Building, on
+							Batavia, Ohio, home of world-famous Sporty&apos;s Pilot Shop, the
+							world&apos;s largest pilot shop. We meet in the Hawk Building, on
 							Taylor Rd (just off the threshold of Rnwy 4). The Hawk building is
 							the building closest to the road just before the runway.
 						</Typography>

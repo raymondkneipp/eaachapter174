@@ -43,13 +43,13 @@ const AboutPage: NextPage = () => {
 									<Typography variant="h4" element="h3" color="secondary">
 										Runways
 									</Typography>
-									<Typography>4-22 (3500', asphalt)</Typography>
+									<Typography>4-22 (3500&apos;, asphalt)</Typography>
 								</div>
 								<div className="space-y-1">
 									<Typography variant="h4" element="h3" color="secondary">
 										Altitude
 									</Typography>
-									<Typography>844' MSL</Typography>
+									<Typography>844&apos; MSL</Typography>
 								</div>
 								<div className="space-y-1">
 									<Typography variant="h4" element="h3" color="secondary">
