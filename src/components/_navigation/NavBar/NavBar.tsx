@@ -1,6 +1,7 @@
 import { ActiveLink, Button, Container, Logo } from '@components';
-import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
+
+import Link from 'next/link';
 import cn from 'variant-classnames';
 
 const NavBar: React.VFC = () => {
