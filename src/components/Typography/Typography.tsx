@@ -42,23 +42,23 @@ const Typography: React.FC<Props> = ({
 		center: { true: 'text-center' },
 		variant: {
 			h1: {
-				$all: 'font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl',
+				$all: 'font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading md:leading-tight lg:leading-tight',
 				color: headingColors,
 			},
 			h2: {
-				$all: 'font-bold text-2xl sm:text-3xl md:text-3xl lg:text-4xl',
+				$all: 'font-bold text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-heading',
 				color: headingColors,
 			},
 			h3: {
-				$all: 'font-bold text-xl sm:text-2xl md:text-2xl lg:text-2xl',
+				$all: 'font-bold text-xl sm:text-2xl md:text-2xl lg:text-2xl font-heading',
 				color: headingColors,
 			},
 			h4: {
-				$all: 'font-bold text-lg sm:text-xl md:text-xl lg:text-xl',
+				$all: 'font-bold text-lg sm:text-xl md:text-xl lg:text-xl font-heading',
 				color: headingColors,
 			},
-			h5: { $all: 'font-bold text-lg', color: headingColors },
-			h6: { $all: 'font-bold text-sm', color: headingColors },
+			h5: { $all: 'font-bold text-lg font-heading', color: headingColors },
+			h6: { $all: 'font-bold text-sm font-heading', color: headingColors },
 			lead: { $all: 'text-lg', color: textColors },
 			p: { $all: 'text-base', color: textColors },
 		},
