@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
-import { Container, Button, Logo, ActiveLink } from "@components";
-import cn from "variant-classnames";
+import { ActiveLink, Button, Container, Logo } from '@components';
+import Link from 'next/link';
+import { useCallback, useEffect, useState } from 'react';
+import cn from 'variant-classnames';
 
 const NavBar: React.VFC = () => {
 	const [show, setShow] = useState(false);
@@ -13,12 +13,12 @@ const NavBar: React.VFC = () => {
 	}, []);
 
 	useEffect(() => {
-		window.addEventListener("scroll", onScroll);
-		return () => window.removeEventListener("scroll", onScroll);
+		window.addEventListener('scroll', onScroll);
+		return () => window.removeEventListener('scroll', onScroll);
 	}, [onScroll]);
 
 	const variants = {
-		$all: "py-4 fixed top-0 left-0 right-0 transition z-30 bg-indigo-600",
+		$all: 'py-4 fixed top-0 left-0 right-0 transition z-30 bg-indigo-600',
 	};
 
 	return (
@@ -36,8 +36,8 @@ const NavBar: React.VFC = () => {
 					<div
 						className={cn(
 							{
-								$all: "md:block absolute top-full bg-indigo-600 md:bg-transparent left-0 right-0 p-2 md:relative md:p-1",
-								show: { true: "block", false: "hidden" },
+								$all: 'md:block absolute top-full bg-indigo-600 md:bg-transparent left-0 right-0 p-2 md:relative md:p-1',
+								show: { true: 'block', false: 'hidden' },
 							},
 							{ show }
 						)}
@@ -46,7 +46,7 @@ const NavBar: React.VFC = () => {
 							<ActiveLink to="/">Home</ActiveLink>
 							<ActiveLink to="/about">About</ActiveLink>
 							<ActiveLink to="/young-eagles">Young Eagles</ActiveLink>
-							<ActiveLink to="/newsletters">Newslatters</ActiveLink>
+							<ActiveLink to="/newsletters">Newsletters</ActiveLink>
 							<ActiveLink to="/contact">Contact</ActiveLink>
 						</div>
 					</div>
@@ -62,9 +62,9 @@ const NavBar: React.VFC = () => {
 									className={cn(
 										{
 											show: {
-												$all: "transition bg-white h-1 w-6 rounded-3xl",
-												true: "rotate-45 translate-y-1.5",
-												false: "",
+												$all: 'transition bg-white h-1 w-6 rounded-3xl',
+												true: 'rotate-45 translate-y-1.5',
+												false: '',
 											},
 										},
 										{ show }
@@ -74,9 +74,9 @@ const NavBar: React.VFC = () => {
 									className={cn(
 										{
 											show: {
-												$all: "transition bg-white h-1 w-6 rounded-3xl",
-												true: "-rotate-45 -translate-y-1.5",
-												false: "",
+												$all: 'transition bg-white h-1 w-6 rounded-3xl',
+												true: '-rotate-45 -translate-y-1.5',
+												false: '',
 											},
 										},
 										{ show }
