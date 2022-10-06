@@ -1,10 +1,11 @@
-import { Container, Typography, Wide, Spacing } from "@components";
-import StatsItem from "./StatsItem/StatsItem";
+import { Container, Spacing, Typography, Wide } from '@components';
+
+import StatsItem from './StatsItem/StatsItem';
 
 const Stats: React.VFC = () => {
 	return (
 		<Spacing>
-			<Container fluid>
+			<Container>
 				<Wide
 					master={
 						<Typography variant="h2" center>
