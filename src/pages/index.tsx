@@ -1,15 +1,15 @@
-import type { NextPage } from "next";
-import { NextSeo } from "next-seo";
 import {
+	About,
+	Button,
 	CTA,
 	Hero,
 	Layout,
-	Stats,
 	LogoCloud,
-	About,
-	Button,
+	Stats,
 	Typography,
-} from "@components";
+} from '@components';
+import type { NextPage } from 'next';
+import { NextSeo } from 'next-seo';
 
 const Home: NextPage = () => {
 	return (

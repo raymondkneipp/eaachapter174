@@ -20,7 +20,7 @@ const Button: React.FC<Props> = ({
 	const variants = {
 		$all: 'text-center rounded-3xl transition inline-flex items-center space-x-2 justify-center disabled:opacity-25 disabled:cursor-not-allowed relative',
 		theme: {
-			primary: 'bg-yellow-400 text-neutral-800 hover:bg-yellow-300',
+			primary: 'bg-yellow-400 text-gray-800 hover:bg-yellow-300',
 			secondary: 'bg-indigo-600 text-white hover:bg-indigo-700',
 			ghost: 'bg-transparent text-white hover:bg-black hover:bg-opacity-20',
 			danger: 'bg-transparent text-red-800 hover:bg-red-200',
