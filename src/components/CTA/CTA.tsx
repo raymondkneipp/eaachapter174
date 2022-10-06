@@ -1,4 +1,4 @@
-import { Button, Container, Divider, Typography, Centered } from "@components";
+import { Button, Centered, Container, Divider, Typography } from '@components';
 
 const CTA: React.VFC = () => {
 	return (
@@ -23,7 +23,7 @@ const CTA: React.VFC = () => {
 					</div>
 				</Container>
 			</div>
-			<Divider color="gray-100" bottom />
+			<Divider color="neutral-100" bottom />
 		</div>
 	);
 };

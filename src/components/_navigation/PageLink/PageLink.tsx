@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { FaExternalLinkAlt, FaLink } from "react-icons/fa";
+import Link from 'next/link';
+import { FaExternalLinkAlt, FaLink } from 'react-icons/fa';
 
 interface Props {
 	to: string;
@@ -9,16 +9,16 @@ interface Props {
 
 const PageLink: React.VFC<Props> = ({ to, page, external = false }) => {
 	const props = external
-		? { target: "_blank", rel: "noopener noreferrer", href: to }
+		? { target: '_blank', rel: 'noopener noreferrer', href: to }
 		: {};
 
 	const styles =
-		"rounded-3xl text-gray-600 inline-flex items-center group relative underline decoration-gray-300 hover:decoration-gray-800 hover:text-gray-800 transition";
+		'rounded-3xl text-neutral-600 inline-flex items-center group relative underline decoration-neutral-300 hover:decoration-neutral-800 hover:text-neutral-800 transition';
 
 	if (external) {
 		return (
 			<a className={styles} {...props}>
-				{page}{" "}
+				{page}{' '}
 				<FaExternalLinkAlt className="opacity-0 group-hover:opacity-100 transition absolute right-0 ml-1 group-hover:translate-x-5" />
 			</a>
 		);
@@ -27,7 +27,7 @@ const PageLink: React.VFC<Props> = ({ to, page, external = false }) => {
 	return (
 		<Link href={to}>
 			<a className={styles}>
-				{page}{" "}
+				{page}{' '}
 				<FaLink className="opacity-0 group-hover:opacity-100 transition absolute right-0 ml-1 group-hover:translate-x-5" />
 			</a>
 		</Link>
