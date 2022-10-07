@@ -1,4 +1,4 @@
-import { Typography, Card } from "@components";
+import { Card, Typography } from '@components';
 
 interface Props {
 	name: string;
